@@ -1,0 +1,24 @@
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+app_identifier("com.jake.sample.alpha") # The bundle identifier of your app
+apple_id("palatable7@naver.com") # Your Apple email address
+team_id("SS7U83UJNK") # Developer Portal Team ID
+
+for_platform :ios do
+  # debug / alpha: default app id (alpha)
+
+  # release > appstore
+  for_lane :sync_codesign_release do
+    app_identifier 'com.jake.sample'
+  end
+
+  for_lane :release_store do
+    app_identifier 'com.jake.sample'
+  end
+
+  for_lane :renew_release_codesign do
+    app_identifier 'com.jake.sample'
+  end
+
+end
