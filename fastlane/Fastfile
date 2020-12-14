@@ -129,7 +129,7 @@ platform :ios do
 
   lane :alpha_upload_to_firebase do
     alpha()
-    upload_to_firebase(appid: "1:866992173753:ios:37f37731c69dc9c3bee168", tester_group: "my_tester")
+    upload_to_firebase(appid: "1:866992173753:ios:3bb5e5ca604386c5bee168", tester_group: "my_tester")
   end
 
 end
