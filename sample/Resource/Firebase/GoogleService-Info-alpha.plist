@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>866992173753-ldodj5tfc6pqffgbdd7svq76lp487lvb.apps.googleusercontent.com</string>
+	<string>866992173753-o3ptlkk9fkk06p4cs7ao50rijled23i8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.866992173753-ldodj5tfc6pqffgbdd7svq76lp487lvb</string>
+	<string>com.googleusercontent.apps.866992173753-o3ptlkk9fkk06p4cs7ao50rijled23i8</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDFDHlObg6kNP5GZp9k7DtXn4TcYhGO-SY</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.jake.sample-alpha</string>
+	<string>com.jake.sample.alpha</string>
 	<key>PROJECT_ID</key>
 	<string>sample-24239</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:866992173753:ios:37f37731c69dc9c3bee168</string>
+	<string>1:866992173753:ios:3bb5e5ca604386c5bee168</string>
 	<key>DATABASE_URL</key>
 	<string>https://sample-24239.firebaseio.com</string>
 </dict>
