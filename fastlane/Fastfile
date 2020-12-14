@@ -110,9 +110,9 @@ platform :ios do
 
   lane :build_number_bump do
     ensure_git_status_clean
-    increment_build_number(xcodeproj: "./sample/sample.xcodeproj")
-    build_number = get_build_number(xcodeproj: "./sample/sample.xcodeproj")
-    commit_version_bump(message: "Bump build number to #{build_number} by fastlane", xcodeproj: "./sample/sample.xcodeproj")
+    increment_build_number(xcodeproj: "./sample.xcodeproj")
+    build_number = get_build_number(xcodeproj: "./sample.xcodeproj")
+    commit_version_bump(message: "Bump build number to #{build_number} by fastlane", xcodeproj: "./sample.xcodeproj")
     push_to_git_remote
   end
 
